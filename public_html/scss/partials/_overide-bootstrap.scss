@@ -1,0 +1,21 @@
+
+html{
+    font-size: 10px;
+}
+
+$font-size-base: 1.6rem;
+$blue: #1A77CD;
+$grid-gutter-width: 2.4rem;
+
+$container-max-widths: (
+sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1140px,
+xxl: 1140px
+);
+
+$h1-font-size: 5rem;
+$h2-font-size: 3.6rem;
+$body-color: #000;
+$dark-blue: #11284B;
