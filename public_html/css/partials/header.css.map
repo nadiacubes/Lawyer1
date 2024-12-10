@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "header.css",
+	"sources": [
+		"../../scss/partials/header.scss"
+	],
+	"names": [],
+	"mappings": ""
+}

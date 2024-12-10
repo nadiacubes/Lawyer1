@@ -1,0 +1,42 @@
+header{
+    .navbar-brand{
+        max-width: 100px;
+        img{
+            display: block;
+        }
+    }
+    .navbar-toggler{
+        border: none;
+        outline: none !important;
+        box-shadow: none !important;
+        span{
+            width: 3rem;
+            height: 3px;
+            background-color: $primary;
+            margin-bottom: 5px;
+            display: block;
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .navbar-nav{
+        .nav-item{
+            @media(min-width:992px){
+                margin-left: 5.2rem;
+            }
+            .nav-link{
+                font-size: 1.4rem;
+                font-weight: 500;
+                line-height: 1.659rem;
+                font-family: "Roboto", sans-serif;
+                padding: 10px 0;
+                @media(min-width:992px){
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+
