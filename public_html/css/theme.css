@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 html {
   font-size: 10px;
 }
@@ -12535,7 +12535,7 @@ img {
 body {
   line-height: 2.5rem;
   font-weight: 300;
-  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", serif;
 }
 
 h1, .h1, h1, .h1 {
@@ -12605,6 +12605,27 @@ header .navbar-nav .nav-item .nav-link {
 
 .herro-section .herro-content .herro-description {
   margin-bottom: 5.9rem;
+}
+
+.service-section {
+  padding: 11rem 0 11.3rem;
+}
+
+.service-section .service-section-title {
+  margin-bottom: 6.1rem;
+}
+
+.service-item {
+  margin-bottom: 2rem;
+}
+
+.service-item .service-item-title {
+  color: #000;
+  text-transform: uppercase;
+}
+
+.service-item .service-item-title:hover {
+  color: #1A77CD;
 }
 
 /*# sourceMappingURL=theme.css.map */
