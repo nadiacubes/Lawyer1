@@ -12687,4 +12687,18 @@ header .navbar-nav .nav-item .nav-link {
   display: flex;
 }
 
+.info-section {
+  background-color: #11284B;
+  padding: 7.8rem 0 9.4rem;
+}
+
+.info-section .info-section-title {
+  margin-bottom: 5.2rem;
+}
+
+.info-section .info-data p, .info-section .info-data a {
+  color: #586C88;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=theme.css.map */
