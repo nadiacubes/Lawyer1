@@ -1,5 +1,4 @@
-$(document).ready(finction({
-    
+$(document).ready(function () {
     //ANIMATION
     function animation() {
         let  windowHeight = $(window).height();
@@ -16,14 +15,14 @@ $(document).ready(finction({
         });
     }
 
+
     $(window).scroll(function () {
         animation();
     });
     animation();
-    
-    
-    
+
     //validate form
+
     if ($('.contact-form').length > 0) {
         $('.contact-form').validate({
             highlight: function (element) {
@@ -62,8 +61,30 @@ $(document).ready(finction({
             }
         });
     }
-    
-    
+
+
+    if ($('.team-slider').length > 0) {
+        $('.team-slider').owlCarousel({
+            loop: true,
+            dots: true,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                992: {
+                    items: 2,
+                    nav: false,
+                    margin: 24
+                }
+            }
+        });
+    }
+
+
+
 });
+
+
 
 

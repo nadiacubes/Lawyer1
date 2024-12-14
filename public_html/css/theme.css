@@ -24,7 +24,7 @@ html {
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-gray-100: #f8f9fa;
+  --bs-gray-100: #F6F5F6;
   --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;
   --bs-gray-400: #ced4da;
@@ -39,7 +39,7 @@ html {
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
+  --bs-light: #F6F5F6;
   --bs-dark: #212529;
   --bs-primary-rgb: 26, 119, 205;
   --bs-secondary-rgb: 108, 117, 125;
@@ -47,7 +47,7 @@ html {
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 248, 249, 250;
+  --bs-light-rgb: 246, 245, 246;
   --bs-dark-rgb: 33, 37, 41;
   --bs-primary-text-emphasis: #0a3052;
   --bs-secondary-text-emphasis: #2b2f32;
@@ -63,7 +63,7 @@ html {
   --bs-info-bg-subtle: #cff4fc;
   --bs-warning-bg-subtle: #fff3cd;
   --bs-danger-bg-subtle: #f8d7da;
-  --bs-light-bg-subtle: #fcfcfd;
+  --bs-light-bg-subtle: #fbfafb;
   --bs-dark-bg-subtle: #ced4da;
   --bs-primary-border-subtle: #a3c9eb;
   --bs-secondary-border-subtle: #c4c8cb;
@@ -94,8 +94,8 @@ html {
   --bs-secondary-bg-rgb: 233, 236, 239;
   --bs-tertiary-color: rgba(0, 0, 0, 0.5);
   --bs-tertiary-color-rgb: 0, 0, 0;
-  --bs-tertiary-bg: #f8f9fa;
-  --bs-tertiary-bg-rgb: 248, 249, 250;
+  --bs-tertiary-bg: #F6F5F6;
+  --bs-tertiary-bg-rgb: 246, 245, 246;
   --bs-heading-color: inherit;
   --bs-link-color: #1A77CD;
   --bs-link-color-rgb: 26, 119, 205;
@@ -158,7 +158,7 @@ html {
   --bs-info-text-emphasis: #6edff6;
   --bs-warning-text-emphasis: #ffda6a;
   --bs-danger-text-emphasis: #ea868f;
-  --bs-light-text-emphasis: #f8f9fa;
+  --bs-light-text-emphasis: #F6F5F6;
   --bs-dark-text-emphasis: #dee2e6;
   --bs-primary-bg-subtle: #051829;
   --bs-secondary-bg-subtle: #161719;
@@ -264,12 +264,12 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: calc(1.365rem + 1.38vw);
+  font-size: calc(1.345rem + 1.14vw);
 }
 
 @media (min-width: 1200px) {
   h4, .h4 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -2079,13 +2079,13 @@ progress {
 
 .table-light {
   --bs-table-color: #000;
-  --bs-table-bg: #f8f9fa;
-  --bs-table-border-color: #c6c7c8;
-  --bs-table-striped-bg: #ecedee;
+  --bs-table-bg: #F6F5F6;
+  --bs-table-border-color: #c5c4c5;
+  --bs-table-striped-bg: #eae9ea;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #dfe0e1;
+  --bs-table-active-bg: #dddddd;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #e5e6e7;
+  --bs-table-hover-bg: #e4e3e4;
   --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -3336,19 +3336,19 @@ fieldset:disabled .btn {
 
 .btn-light {
   --bs-btn-color: #000;
-  --bs-btn-bg: #f8f9fa;
-  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-bg: #F6F5F6;
+  --bs-btn-border-color: #F6F5F6;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #d3d4d5;
-  --bs-btn-hover-border-color: #c6c7c8;
-  --bs-btn-focus-shadow-rgb: 211, 212, 213;
+  --bs-btn-hover-bg: #d1d0d1;
+  --bs-btn-hover-border-color: #c5c4c5;
+  --bs-btn-focus-shadow-rgb: 209, 208, 209;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #c6c7c8;
-  --bs-btn-active-border-color: #babbbc;
+  --bs-btn-active-bg: #c5c4c5;
+  --bs-btn-active-border-color: #b9b8b9;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #f8f9fa;
-  --bs-btn-disabled-border-color: #f8f9fa;
+  --bs-btn-disabled-bg: #F6F5F6;
+  --bs-btn-disabled-border-color: #F6F5F6;
 }
 
 .btn-dark {
@@ -3471,19 +3471,19 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-light {
-  --bs-btn-color: #f8f9fa;
-  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-color: #F6F5F6;
+  --bs-btn-border-color: #F6F5F6;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #f8f9fa;
-  --bs-btn-hover-border-color: #f8f9fa;
-  --bs-btn-focus-shadow-rgb: 248, 249, 250;
+  --bs-btn-hover-bg: #F6F5F6;
+  --bs-btn-hover-border-color: #F6F5F6;
+  --bs-btn-focus-shadow-rgb: 246, 245, 246;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #f8f9fa;
-  --bs-btn-active-border-color: #f8f9fa;
+  --bs-btn-active-bg: #F6F5F6;
+  --bs-btn-active-border-color: #F6F5F6;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #f8f9fa;
+  --bs-btn-disabled-color: #F6F5F6;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #f8f9fa;
+  --bs-btn-disabled-border-color: #F6F5F6;
   --bs-gradient: none;
 }
 
@@ -7419,8 +7419,8 @@ fieldset:disabled .btn {
 }
 
 .link-light:hover, .link-light:focus {
-  color: RGBA(249, 250, 251, var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(249, 250, 251, var(--bs-link-underline-opacity, 1)) !important;
+  color: RGBA(248, 247, 248, var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(248, 247, 248, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-dark {
@@ -8832,7 +8832,7 @@ fieldset:disabled .btn {
 }
 
 .fs-4 {
-  font-size: calc(1.365rem + 1.38vw) !important;
+  font-size: calc(1.345rem + 1.14vw) !important;
 }
 
 .fs-5 {
@@ -12397,7 +12397,7 @@ fieldset:disabled .btn {
     font-size: 2.8rem !important;
   }
   .fs-4 {
-    font-size: 2.4rem !important;
+    font-size: 2.2rem !important;
   }
   .fs-5 {
     font-size: 2rem !important;
@@ -12546,6 +12546,10 @@ h2, .h2, .h2 {
   line-height: 4.266rem;
 }
 
+h4, .h4, .h4 {
+  line-height: 2.5rem;
+}
+
 header .navbar-brand {
   max-width: 100px;
 }
@@ -12626,6 +12630,61 @@ header .navbar-nav .nav-item .nav-link {
 
 .service-item .service-item-title:hover {
   color: #1A77CD;
+}
+
+.team-section {
+  padding: 8.1rem 0 6.8rem;
+}
+
+.team-section .team-section-title {
+  margin-bottom: 6.1rem;
+}
+
+.team-section .team-member .team-member-title {
+  margin-bottom: 2.1rem;
+}
+
+.team-section .team-member .team-member-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.team-section .team-member .team-member-linkedin {
+  color: #444;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 576px) {
+  .team-section .team-member .team-member-linkedin {
+    margin-bottom: 0;
+  }
+}
+
+.team-section .team-member .team-member-linkedin:hover {
+  color: #1A77CD;
+}
+
+.team-section .team-member .team-member-image {
+  overflow: hidden;
+  display: block;
+}
+
+.team-section .team-member .team-member-image:hover img {
+  transform: scale(1.1);
+}
+
+.team-section .team-member .team-member-image img {
+  display: block;
+  width: 100%;
+  transition: 0.3s linear;
+}
+
+.team-section .owl-dot {
+  margin-top: 9.2rem;
+  display: flex;
 }
 
 /*# sourceMappingURL=theme.css.map */
