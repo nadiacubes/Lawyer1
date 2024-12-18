@@ -12724,4 +12724,17 @@ footer .social .social-icon:hover {
   transform: rotate(360deg);
 }
 
+.about-section {
+  padding: 10.6rem 0 10.8rem;
+}
+
+.about-section .about-image img {
+  width: 100%;
+  display: block;
+}
+
+.about-section .about-data h2, .about-section .about-data .h2 {
+  margin-bottom: 2.6rem;
+}
+
 /*# sourceMappingURL=theme.css.map */
