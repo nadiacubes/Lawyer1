@@ -12619,16 +12619,33 @@ header .navbar-nav .nav-item .nav-link {
   margin-bottom: 6.1rem;
 }
 
-.service-item {
+.service-section .service-item {
   margin-bottom: 2rem;
 }
 
-.service-item .service-item-title {
+.service-section .service-item .service-item-title {
   color: #000;
   text-transform: uppercase;
+  padding-left: 1.2rem;
 }
 
-.service-item .service-item-title:hover {
+.service-section .service-item .service-item-title:hover {
+  color: #1A77CD;
+}
+
+.service-section.dark-services-section {
+  background-color: #11284B;
+}
+
+.service-section.dark-services-section .service-section-title {
+  color: #1A77CD;
+}
+
+.service-section.dark-services-section .service-item .service-item-title {
+  color: #fff;
+}
+
+.service-section.dark-services-section .service-item .service-item-title:hover {
   color: #1A77CD;
 }
 

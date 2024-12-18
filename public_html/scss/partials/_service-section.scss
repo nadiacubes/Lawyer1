@@ -1,20 +1,43 @@
+$dark-service-bg: $dark-blue;
+
 
 .service-section{
     padding: 11rem 0 11.3rem;
-    
+
     .service-section-title{
         margin-bottom: 6.1rem;
     }
-}
 
-.service-item{
-    margin-bottom: 2rem;
-    .service-item-title{
-        color: #000;
-        text-transform: uppercase;
+
+    .service-item{
+        margin-bottom: 2rem;
+        .service-item-title{
+            color: #000;
+            text-transform: uppercase;
+            padding-left: 1.2rem;
+
+            &:hover{
+                color: $blue;
+            }
+        }
+    }
+    
+    
+    &.dark-services-section{
+        background-color: $dark-service-bg;
+        .service-section-title{
+            color: $primary;
+        }
         
-        &:hover{
-            color: $blue;
+        .service-item{
+            .service-item-title{
+                color: #fff;
+                &:hover{
+                    color: $primary;
+                }
+            }
         }
     }
 }
+
+
