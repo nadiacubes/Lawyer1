@@ -1,0 +1,41 @@
+
+.team-page-members{
+    padding: 11.4rem 0 12.7rem;
+    
+    .team-page-members-title{
+        margin-bottom: 5.6rem;
+    }
+    
+    
+    .team-member{
+        margin-bottom: 5.9rem;
+        
+        .team-member-image{
+            overflow: hidden;
+            margin-bottom: 2.2rem;
+             &:hover{
+            img{
+                transform: scale(1.1);
+            }
+        }
+            img{
+                transition: 0.5s linear;   
+                width: 100%;
+                display: block;
+            }
+        }
+        
+        .team-member-name{
+            a{
+                font-size: 2rem;
+                line-height: 2rem;
+                text-decoration: none;
+                color: #000;
+                &:hover{
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+
