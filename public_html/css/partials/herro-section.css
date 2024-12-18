@@ -5,6 +5,10 @@
   background-size: auto 100%;
 }
 
+.herro-section.contact-herro {
+  padding: 15.3rem 0 15.4rem;
+}
+
 .herro-section .herro-content {
   background-color: rgba(255, 255, 255, 0.6);
 }
@@ -26,6 +30,15 @@
 
 .herro-section .herro-content .herro-description {
   margin-bottom: 5.9rem;
+}
+
+.herro-section .herro-content .herro-info-data {
+  padding-top: 1.3rem;
+}
+
+.herro-section .herro-content .herro-info-data a, .herro-section .herro-content .herro-info-data p {
+  color: #586C88;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=herro-section.css.map */
