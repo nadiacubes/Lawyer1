@@ -9,6 +9,21 @@
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+.herro-section .herro-content .herro-categories a {
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+
+.herro-section .herro-content .separator {
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+
+.herro-section .herro-content .herro-date {
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+
 .herro-section .herro-content .herro-description {
   margin-bottom: 5.9rem;
 }
